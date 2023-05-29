@@ -1,0 +1,19 @@
+The Dot99 Binding project Kick-off Meeting was held on May 29th, 2023.
+
+Agenda:
+  1. Discussing what will be the technical way to perform a binding demonstration
+
+Discussion Summary
+
+  Agenda Item 1.
+    Helbert have shown an article describing an architecture for XMPP interoperability.
+    Peter has suggested that we shall keep semantic and representation well separated in our standard.
+    
+    In order to perform a demonstration of how to realize high-level interoperability we agred that the starting point of this demonstration will 
+    be realized with:
+      1. Peter will setup a server, using its development test-platfom receiving N3 Semantic-Web posts from Helbert's client
+      2. Peter will transform the N3 post according to .99 allowing routing towards another binding
+      3. Helbert will realize a client sending N3 Semantiw-Web posts to Peter's server
+      4. Riccardo will setup a GitHub repository where to work
+      
+   2. The meeting was adjourned.
