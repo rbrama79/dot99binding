@@ -1,0 +1,93 @@
+{
+    "@context": "http://iml.ubi.pt/2022/ieee1451/ieee1451.jsonld",
+    "NCAP": {
+        "BlockManufactureID": "0",
+        "BlockModelNumber": "UBIBlock_1",
+        "BlockSoftwareVersion": "sv001",
+        "NCAPManufactureID": "INTERPOP 2023",
+        "NCAPModelNumber": "0.3",
+        "NCAPSerialNumber": "6",
+        "NCAPOSVersion": "0.5",
+        "TIM": [
+            {
+                "timId": "1",
+                "MetaTEDS": {
+                    "TEDSLength": "59",
+                    "tedsID ": "1",
+                    "UUID": "91B3501A6905F982DA79",
+                    "oHoldOff": "1",
+                    "sHoldOff": "1",
+                    "testTime": "1",
+                    "MaxChan": "1",
+                    "cGroup": {
+                        "grpType": "1",
+                        "memList": "1"
+                    }
+                },
+                "TransducerChannelTEDS": [
+                    {
+                        "TEDSLength": "99",
+                        "tedsID": "3",
+                        "calKey": "0",
+                        "chanType": "0",
+                        "phyUnits": {
+                            "unitType": "1",
+                            "radians": "128",
+                            "sterRad": "128",
+                            "meters": "128",
+                            "kilogram": "128",
+                            "seconds": "128",
+                            "amperes": "128",
+                            "kelvins": "129",
+                            "moles": "128",
+                            "candelas": "128",
+                            "unitsExt": "3"
+                        },
+                        "lowLimit": "233.15",
+                        "hiLimit": "398.15",
+                        "oError": "1",
+                        "selfTest": "0",
+                        "mRange": "0",
+                        "sample": {
+                            "datModel": "0",
+                            "modLenth": "0",
+                            "sigBits": "0"
+                        },
+                        "updateT": "2",
+                        "rSetupT": "1",
+                        "sPeriod": "10",
+                        "warmUpT": "1",
+                        "rDelayT": "1",
+                        "testTime": "2",
+                        "sampling": {
+                            "sampMode": "0"
+                        }
+                    }
+                ],
+                "UsersTransducerNameTEDS": {
+                    "TEDSLength": "29",
+                    "tedsID": "12",
+                    "format": "0",
+                    "tCName": "Temperature"
+                },
+                "TEDSLength": "20",
+                "tedsID": "13",
+                "radioType": "4",
+                "maxBPS": "1",
+                "maxCDev": "10",
+                "maxRDev": "1",
+                "encryption": "0",
+                "authent": "0",
+                "minKeyL": "0",
+                "maxKeyL": "1",
+                "maxSDU": "10",
+                "minALat": "1",
+                "maxTLat": "1",
+                "maxXAct": "1",
+                "batery": "0",
+                "radio": "0",
+                "maxRetry": "2"
+            }
+        ]
+    }
+}
