@@ -151,3 +151,9 @@ but is a collection of Transducer Channel TED blank node objects. Name Suggestio
 The name of predicate `ieee1451:hasMetaTEDS` is counter-intuitive. Sounds like a Boolean property,
 but is a collection of Meta TED blank node objects. Name Suggestion: `ieee1451:MetaTEDS`.
 
+Collections/Sets/Sequences
+------------------------------
+
+For sets of objects (samples, TEDs, etc., consider using semantic web standard collections.
+This includes declarying type of collection (rdf:Bag, rdf:Seq, etc.), and using rdf:li
+list-item predicates.
