@@ -3,6 +3,16 @@ IEEE P1451.99 bindings (demo)
 
 This repository will hold information about the IECON2023 demonstration of IEEE P1451.99 bindings.
 
+Example Files
+---------------
+
+Repository contains the following examples files:
+
+* [Semantic sensor data in RDF/XML format](UBI\ReadTEDSExample.rdf)
+* [Semantic sensor data in graph form](UBI\ReadTEDSExample.png)
+* [Comments on semantic sensor data](UBI\CommentsOnRDF.md)
+* [Semantic sensor data in JSON-LD format](UBI\ReadTEDSExample.jsonld)
+
 References
 -------------
 
