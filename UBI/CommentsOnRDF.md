@@ -165,3 +165,71 @@ Following predicate names are unintuitive:
 
 * `cGroup`
 * `grpType`
+* `memList`
+
+Data Types of encoded values
+-------------------------------
+
+Encoded values should have data type specified. Nwo they are all string literals.
+
+Sample values & units
+-------------------------
+
+It is a common implementation strategy to implement a physical magnitute as a collection
+of two (or more) fields, at least including magnitute as a numeric value, and unit as a 
+string or enumeration. Another alternative is to use the unit as field name (predicate) and
+magnitute as value (object literal). This makes all kinds of processing of sample data difficult.
+
+If a two-field approach is used, you can have multiple sample values using the same unit,
+but meaning sligly different things: Example: Reporting Voltage in a 3-phase volt-meter often
+requires 4 fields using the `V` unit (a total, and one for each phase). Typically, there are
+even more fields. Difficulty is creating understandable queries however, and unit conversion.
+
+If a one-field (or predicate) approach is used, queries become simpler, but it is more difficult
+to encode meter samples where multiple fields use the same unit. Predicate ovarloads can be
+used, but considering use of different units, complexity grows.
+
+An alternative is the ability of semantic web to define data types, that include magnitude
+and unit into a single semantic literal value.
+
+Example: Consider a Heat Meter, reporting 3 kinds of temperatures: Flow Temperature (into
+the system), Return Temperature (out from system) and Temperature differente (often a magnitute
+higher precision, otherwise flow-return temperature). Flow and return temperatures are often
+measured in degrees C or F, while difference is often measured in K. But not always.
+
+Consider the complexity of making a semantic query, of retrieving all heat meters reporting
+a temperature difference less than 10 degrees C or K (18 degrees F). Apart from having to
+struggle with unit conversion, three different temperature field values have to be analyzed.
+
+If instead of having a same value defined as:
+
+```
+[ieee1451:FlowTemp "somevalue"^^xsd:decimal;
+ ieee1451:FlowTempUnit "someunit";
+ ieee1451:ReturnTemp "somevalue"^^xsd:decimal;
+ ieee1451:ReturnTempUnit "someunit";
+ ieee1451:TempDiff "somevalue"^^xsd:decimal;
+ ieee1451:TempDiffUnit "someunit"]
+```
+
+or
+
+```
+[ieee1451:FlowTempC "somevalue"^^xsd:decimal;
+ ieee1451:ReturnTempC "somevalue"^^xsd:decimal;
+ ieee1451:TempDiffK "somevalue"^^xsd:decimal]
+```
+
+it could be encoded as:
+
+```
+[ieee1451:FlowTemp "somevalue"^^ieee1451:C;
+ ieee1451:ReturnTemp "somevalue"^^ieee1451:C;
+ ieee1451:TempDiff "somevalue"^^ieee1451:K]
+```
+
+This would have the following benefits: Reasoners would be able to perform processing
+with implicit unit conversion, meaning interoperability between devices using different
+physical units on all levels. If a reasoner did not understand the physical unit data types
+they could still process information, but as string literals, without making numerical
+processing errors, that could occur when mixing units.
