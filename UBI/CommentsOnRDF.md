@@ -112,3 +112,18 @@ Use of blank nodes for TIMs
 Use of Blank Nodes in RDF does not allow for addressing TIMs individually. The TIMS are
 physical objects (right?) that should be adressable using linked data directly. As blank
 nodes they are only addressable in a specific context (as the RDF document itself).
+
+
+On identity of NCAP
+-----------------------
+
+The RDF document begins with defining `http://iml.ubi.pt/2022/ieee1451/#NCAP`. Is this
+assumed to be an example identity? Or are all NCAPs reporting the same URI?
+
+
+Use of xml:base
+------------------
+
+Use of xml:base should be used, esp. since document is not retrieved using HTTP GET (where
+base URI is implicit). By using xml:base in all such RDF documents, you avoid any concerns
+of genering documents that are not well-defined.
