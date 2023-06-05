@@ -8,10 +8,10 @@ Example Files
 
 Repository contains the following examples files:
 
-* [Semantic sensor data in RDF/XML format](UBI\ReadTEDSExample.rdf)
-* [Semantic sensor data in graph form](UBI\ReadTEDSExample.png)
-* [Comments on semantic sensor data](UBI\CommentsOnRDF.md)
-* [Semantic sensor data in JSON-LD format](UBI\ReadTEDSExample.jsonld)
+* [Semantic sensor data in RDF/XML format](UBI/ReadTEDSExample.rdf)
+* [Semantic sensor data in graph form](UBI/ReadTEDSExample.png)
+* [Comments on semantic sensor data](UBI/CommentsOnRDF.md)
+* [Semantic sensor data in JSON-LD format](UBI/ReadTEDSExample.jsonld)
 
 References
 -------------
