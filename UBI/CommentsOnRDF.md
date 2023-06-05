@@ -157,3 +157,11 @@ Collections/Sets/Sequences
 For sets of objects (samples, TEDs, etc., consider using semantic web standard collections.
 This includes declarying type of collection (rdf:Bag, rdf:Seq, etc.), and using rdf:li
 list-item predicates.
+
+Unintuitive names
+--------------------
+
+Following predicate names are unintuitive:
+
+* `cGroup`
+* `grpType`
