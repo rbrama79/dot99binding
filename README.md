@@ -17,7 +17,9 @@ References
 -------------
 
 * [Current IEEE P1451.99 Proposal](https://gitlab.com/IEEE-SA/XMPPI/IoT)
+* [W3C Semantic Web specifications](https://www.w3.org/TR/?tag=data)
 * [W3C specification for the TURTLE format for semantic information](https://www.w3.org/TeamSubmission/turtle/#sec-collections)
+* [W3C specification for SPARQL 1.2 query language](https://www.w3.org/TR/2023/WD-sparql12-query-20230516/)
 * [IEEE P1451.99 Implementation reference broker](https://cybercity.online/)
 * [Lab server for demo](https://lab.tagroot.io/)
 * [Server documentation](https://lab.tagroot.io/Documentation/Index.md)
