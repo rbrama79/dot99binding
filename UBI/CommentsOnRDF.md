@@ -254,4 +254,7 @@ This would have the following benefits: Reasoners would be able to perform proce
 with implicit unit conversion, meaning interoperability between devices using different
 physical units on all levels. If a reasoner did not understand the physical unit data types
 they could still process information, but as string literals, without making numerical
-processing errors, that could occur when mixing units.
+processing errors, that could occur when mixing units. Another benefit is that it would
+be impossible to fraction the tuple (magnitude,unit), or transmit partial or incomplete
+data. Magnitude and unit would be engraved together, without loosing the flexibility
+of allowing engineers to select what fields and units to use in their applications.
