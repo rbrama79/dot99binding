@@ -1,8 +1,6 @@
-Comments on contents of RDF file
-======================================
+# Comments on contents of RDF file
 
-Superflous rdf:about
------------------------
+## Superflous rdf:about
 
 Following statement generates superflous triple:
 
@@ -12,9 +10,7 @@ Following statement generates superflous triple:
 
 as it says that `http://iml.ubi.pt/2022/ieee1451/#NCAP` is a `http://iml.ubi.pt/2022/ieee1451/#NCAP`.
 
-
-Generated Triples
--------------------
+## Generated Triples
 
 The RDF generates the following triples:
 
@@ -106,8 +102,7 @@ _:tim1	<http://iml.ubi.pt/2022/ieee1451/#maxRetry>	"2"
 <http://iml.ubi.pt/2022/ieee1451/#NCAP>	<http://iml.ubi.pt/2022/ieee1451/#hasTIM>	_:tim1
 ```
 
-Generated Graph
--------------------
+## Generated Graph
 
 The RDF generates the following semantic graph:
 
@@ -123,35 +118,49 @@ Rules for how graph was generated:
 * Links from blank nodes are shown as aggregations.
 
 
-Use of blank nodes for TIMs
-------------------------------
+## Use of blank nodes for TIMs
 
 Use of Blank Nodes in RDF does not allow for addressing TIMs individually. The TIMS are
 physical objects (right?) that should be adressable using linked data directly. As blank
 nodes they are only addressable in a specific context (as the RDF document itself).
 
 
-On identity of NCAP
------------------------
+## On identity of NCAP
 
 The RDF document begins with defining `http://iml.ubi.pt/2022/ieee1451/#NCAP`. Is this
 assumed to be an example identity? Or are all NCAPs reporting the same URI?
 
 rbrama: This is, indeed, a nice question. In IEEE P1451.0 we suppose to identify APPs, NCAPs and TIMs by means of their UUID. 
 Please note UUIDs have been modified since last official 1451.0 and they are longer (128b). Now, IMHO the NCAP will share the
-URI identifying their semantic descriptor URI while they MUST be logically (1451.0) addressable by means of the UUID. How to
-bind UUIDs with real URLs or JIDs (in case of .99) is to be discussed
-   
+semantic descriptor URI while they MUST be logically (1451.0) addressable by means of the UUID. How to bind UUIDs with real 
+URLs or JIDs (in case of .99) is to be discussed.
 
-Use of xml:base
-------------------
+### 1451 UUIDs
+
+As noted above UUIDs has changed form the previous version and they are 128b long. Each manufacturer/vendor
+can generate freely, without asking to a registrar, a UUID for each of its products. This is possible since
+48+24 bits are used to identify location and manufacturer within the location. Following 56 bits identify
+the year and the time of production. These UUIDs can be represented as we do in IPv6.
+
+### Proposal for JID addressing
+
+In 1451 family each device (TIMs & NCAPS) and each application is identified by an UUID. This allows to 
+use UUIDs as a way to address each member of the 1451 family. However it should be noted that the JID 
+associated with each of those UUIDs should not reflect the device but the binding gateway. Each of them
+should be identified as per RFC6122 as
+
+   [ localpart "@" ] domainpart [ "/" resourcepart ]
+   
+where localpart is 
+
+
+## Use of xml:base
 
 Use of xml:base should be used, esp. since document is not retrieved using HTTP GET (where
 base URI is implicit). By using xml:base in all such RDF documents, you avoid any concerns
 of genering documents that are not well-defined.
 
-has-properties
------------------
+## has-properties
 
 ### ieee1451:hasTIM
 
@@ -173,15 +182,13 @@ but is a collection of Transducer Channel TED blank node objects. Name Suggestio
 The name of predicate `ieee1451:hasMetaTEDS` is counter-intuitive. Sounds like a Boolean property,
 but is a collection of Meta TED blank node objects. Name Suggestion: `ieee1451:MetaTEDS`.
 
-Collections/Sets/Sequences
-------------------------------
+## Collections/Sets/Sequences
 
 For sets of objects (samples, TEDs, etc., consider using semantic web standard collections.
 This includes declarying type of collection (rdf:Bag, rdf:Seq, etc.), and using rdf:li
 list-item predicates.
 
-Unintuitive names
---------------------
+## Unintuitive names
 
 Following predicate names are unintuitive:
 
@@ -189,13 +196,11 @@ Following predicate names are unintuitive:
 * `grpType`
 * `memList`
 
-Data Types of encoded values
--------------------------------
+## Data Types of encoded values
 
 Encoded values should have data type specified. Nwo they are all string literals.
 
-Sample values & units
--------------------------
+## Sample values & units
 
 It is a common implementation strategy to implement a physical magnitute as a collection
 of two (or more) fields, at least including magnitute as a numeric value, and unit as a 
