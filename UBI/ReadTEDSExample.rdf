@@ -4,8 +4,9 @@
     <ieee1451:BlockModelNumber>UBIBlock_1</ieee1451:BlockModelNumber>
     <ieee1451:BlockSoftwareVersion>sv001</ieee1451:BlockSoftwareVersion>
     <ieee1451:NCAPManufactureID>INTERPOP 2023</ieee1451:NCAPManufactureID>
-    <ieee1451:NCAPModelNumber>0.3</ieee1451:NCAPModelNumber>
+	  <ieee1451:NCAPModelNumber>0.3</ieee1451:NCAPModelNumber>
     <ieee1451:NCAPSerialNumber>6</ieee1451:NCAPSerialNumber>
+<!-- Shouldn't an NCAP also be identified by a UUID? -->
     <ieee1451:NCAPOSVersion>0.5</ieee1451:NCAPOSVersion>
     <ieee1451:hasTIM>
       <ieee1451:TIM rdf:nodeID="tim1">
