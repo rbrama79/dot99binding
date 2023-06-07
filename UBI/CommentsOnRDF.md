@@ -137,6 +137,11 @@ On identity of NCAP
 The RDF document begins with defining `http://iml.ubi.pt/2022/ieee1451/#NCAP`. Is this
 assumed to be an example identity? Or are all NCAPs reporting the same URI?
 
+rbrama: This is, indeed, a nice question. In IEEE P1451.0 we suppose to identify APPs, NCAPs and TIMs by means of their UUID. 
+Please note UUIDs have been modified since last official 1451.0 and they are longer (128b). Now, IMHO the NCAP will share the
+URI identifying their semantic descriptor URI while they MUST be logically (1451.0) addressable by means of the UUID. How to
+bind UUIDs with real URLs or JIDs (in case of .99) is to be discussed
+   
 
 Use of xml:base
 ------------------
