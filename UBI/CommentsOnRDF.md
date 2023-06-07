@@ -106,6 +106,23 @@ _:tim1	<http://iml.ubi.pt/2022/ieee1451/#maxRetry>	"2"
 <http://iml.ubi.pt/2022/ieee1451/#NCAP>	<http://iml.ubi.pt/2022/ieee1451/#hasTIM>	_:tim1
 ```
 
+Generated Graph
+-------------------
+
+The RDF generates the following semantic graph:
+
+![Graph of Example RDF file](ReadTEDSExample.png)
+
+Rules for how graph was generated:
+
+* Subjects shown as objects in object diagram.
+* Literals shown as properties on objects
+* Predicates are shown as labels on links to objects, or as property names.
+* Prefixed short names used instead of fully qualified names, for readability.
+* rdf:type shown as stereotype on object definition.
+* Links from blank nodes are shown as aggregations.
+
+
 Use of blank nodes for TIMs
 ------------------------------
 
