@@ -184,20 +184,28 @@ of genering documents that are not well-defined.
 The name of predicate `ieee1451:hasTIM` is counter-intuitive. Sounds like a Boolean property,
 but is a collection of TIM blank node objects. Name Suggestion: `ieee1451:TIMs`.
 
+rbrama: like +1
+
 ### ieee1451:hasUsersTransducerNameTEDS
 
 The name of predicate `ieee1451:hasUsersTransducerNameTEDS` is counter-intuitive. Sounds like a Boolean property,
 but is a collection of User Transducer Name TED blank node objects. Name Suggestion: `ieee1451:UsersTransducerNameTEDS`.
+
+rbrama: like +1
 
 ### ieee1451:hasTransducerChannelTEDS
 
 The name of predicate `ieee1451:hasTransducerChannelTEDS` is counter-intuitive. Sounds like a Boolean property,
 but is a collection of Transducer Channel TED blank node objects. Name Suggestion: `ieee1451:TransducerChannelTEDS`.
 
+rbrama: like +1
+
 ### ieee1451:hasMetaTEDS
 
 The name of predicate `ieee1451:hasMetaTEDS` is counter-intuitive. Sounds like a Boolean property,
 but is a collection of Meta TED blank node objects. Name Suggestion: `ieee1451:MetaTEDS`.
+
+rbrama: like +1
 
 ## Collections/Sets/Sequences
 
