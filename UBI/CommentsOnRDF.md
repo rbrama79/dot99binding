@@ -155,8 +155,8 @@ where localpart should be used, indeed, to identify one of the bindings (e.g. fo
 the domainpart could be used to indicate the "network" (e.g. gws.mynetwork.net) while it could be
 the resource part the one used to identify what is bound (e.g. UUIDs/uuidA, or URN/temp1.floor1).
 
-As you can see in the examples my proposal is to use a "descriptor" part, in yhe resourcepart,
-indicating hiw we should handle the following part (i.e. wheter it is a UUID or a more user 
+As you can see in the examples my proposal is to use a "descriptor" part, in the resourcepart,
+indicating how we should handle the following part (i.e. wheter it is a UUID or a more user 
 friendly name). Of course it will be the .99 binding the one having to "digest" the pointer and 
 to associate to it the real identity (and the real address) of the device.
 
@@ -166,7 +166,7 @@ When binding non-1451 devices we will have the problem to make the bound devices
 the 1451 network. It is straightforward to understand we shall provide to one of those devices 
 a UUID. How can we lease that device? IMHO we have only one way: use a set of geographic coordinates
 identifying the leased UUID as such. We could use coordinates in the middle of oceans and bind a subset of them
-to each Country in which the leasing binding has been manufactured. UUID Year and time will indicate, in thst case,
+to each Country in which the leasing binding has been manufactured. UUID Year and time will indicate, in that case,
 the instant in which the UUID has been leased.
 
 In the unlikely event a UUID collision happens we should figure out a way to resolve it. 
