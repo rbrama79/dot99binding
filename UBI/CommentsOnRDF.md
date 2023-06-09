@@ -117,6 +117,15 @@ Rules for how graph was generated:
 * rdf:type shown as stereotype on object definition.
 * Links from blank nodes are shown as aggregations.
 
+Helbert: The graph is not representing the correct relationship, I mistake and forget the PHY TEDS,  I need to produce a RDF v2. also, based on the comments. 
+
+## IEEE 1451 Knowleage Model
+
+I am updating the knowleage model that was used to build the ontology 
+
+[Ontology Knowleage Model](IEEE1451KnowleageModel.svg)
+
+I can refactored the Knowleage Model and the ontology and update if it is necessary. We need the approval of the IEEE P1451.0 to see the differences between the version from IEEE 1451.0-2007 to the new one and update the ontology.
 
 ## Use of blank nodes for TIMs
 
@@ -124,6 +133,7 @@ Use of Blank Nodes in RDF does not allow for addressing TIMs individually. The T
 physical objects (right?) that should be adressable using linked data directly. As blank
 nodes they are only addressable in a specific context (as the RDF document itself).
 
+Helbert: Perfect, I aggree. 
 
 ## On identity of NCAP
 
@@ -135,12 +145,16 @@ Please note UUIDs have been modified since last official 1451.0 and they are lon
 semantic descriptor URI while they MUST be logically (1451.0) addressable by means of the UUID. How to bind UUIDs with real 
 URLs or JIDs (in case of .99) is to be discussed.
 
+Helbert: It should be like the TIM example above be addressed using the linked data. To take advange for the linked data all NCAP, TIM, and things inside the IEEE 1451 may used the same URI to idenfy what it is. I need to study the difference from JSON-LD and RDF.  
+
 ### 1451 UUIDs
 
 As noted above UUIDs has changed form the previous version and they are 128b long. Each manufacturer/vendor
 can generate freely, without asking to a registrar, a UUID for each of its products. This is possible since
 48+24 bits are used to identify location and manufacturer within the location. Following 56 bits identify
 the year and the time of production. These UUIDs can be represented as we do in IPv6.
+
+Helbert: Yes the current version is 80 bits: 42 for location, 4 manufacture field, 12 year, and 22 time. 
 
 ### Proposal for JID addressing
 
@@ -160,6 +174,8 @@ indicating how we should handle the following part (i.e. wheter it is a UUID or 
 friendly name). Of course it will be the .99 binding the one having to "digest" the pointer and 
 to associate to it the real identity (and the real address) of the device.
 
+Helbert: actually there are no UUID required for the NCAP, I thing they missed it on the review on IEEE 1451.0-2007, I am not familiar with IEEE P1451.0 at the moment.
+
 ### Leasing UUIDs
 
 When binding non-1451 devices we will have the problem to make the bound devices reachable from
@@ -169,13 +185,17 @@ identifying the leased UUID as such. We could use coordinates in the middle of o
 to each Country in which the leasing binding has been manufactured. UUID Year and time will indicate, in that case,
 the instant in which the UUID has been leased.
 
-In the unlikely event a UUID collision happens we should figure out a way to resolve it. 
+In the unlikely event a UUID collision happens we should figure out a way to resolve it.
+
+Helbert: May one ideia is to create a UUID to address to this device on the biding and use it in all .99 bidings 
 
 ## Use of xml:base
 
 Use of xml:base should be used, esp. since document is not retrieved using HTTP GET (where
 base URI is implicit). By using xml:base in all such RDF documents, you avoid any concerns
 of genering documents that are not well-defined.
+
+Helbert: Okay, I agree.
 
 ## has-properties
 
@@ -207,6 +227,8 @@ but is a collection of Meta TED blank node objects. Name Suggestion: `ieee1451:M
 
 rbrama: like +1
 
+Helbert: I aggree, I will update in the RDF v2.
+
 ## Collections/Sets/Sequences
 
 For sets of objects (samples, TEDs, etc., consider using semantic web standard collections.
@@ -217,13 +239,19 @@ list-item predicates.
 
 Following predicate names are unintuitive:
 
-* `cGroup`
-* `grpType`
+* `cGroup` 
+* `grpType` 
 * `memList`
+
+Helbert: it is a collection too, as TEDS.
+
 
 ## Data Types of encoded values
 
-Encoded values should have data type specified. Nwo they are all string literals.
+Encoded values should have data type specified. Now they are all string literals.
+
+Helbert: I aggree, using the JSON-LD it all pointed using the URI where is the information about type, I need to modify for the RDF document.
+
 
 ## Sample values & units
 
@@ -288,3 +316,7 @@ processing errors, that could occur when mixing units. Another benefit is that i
 be impossible to fraction the tuple (magnitude,unit), or transmit partial or incomplete
 data. Magnitude and unit would be engraved together, without loosing the flexibility
 of allowing engineers to select what fields and units to use in their applications.
+
+Helbert: This parte is not defined on the IEEE 1451.0-2007, so we can elaborate what is better for our user case. Using JSON-LD my ideia was "discover the system" NCAPs and TIMs after that knowing the tranduscer channels and the data types using Linked Data start to receive only the values, for exemple a temperature value: 298,15 for example, because of the TEDS the system/developer/M2M can infer that 298,15 K, actually there are only Kelvin on the data type. 
+
+I will work on a improvement on the RDF file for a new version. Thanks for all comments and apologies for the delayed response.

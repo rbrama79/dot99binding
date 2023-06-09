@@ -70,23 +70,25 @@
                     "format": "0",
                     "tCName": "Temperature"
                 },
-                "TEDSLength": "20",
-                "tedsID": "13",
-                "radioType": "4",
-                "maxBPS": "1",
-                "maxCDev": "10",
-                "maxRDev": "1",
-                "encryption": "0",
-                "authent": "0",
-                "minKeyL": "0",
-                "maxKeyL": "1",
-                "maxSDU": "10",
-                "minALat": "1",
-                "maxTLat": "1",
-                "maxXAct": "1",
-                "batery": "0",
-                "radio": "0",
-                "maxRetry": "2"
+                "PHYTEDS": {
+                    "TEDSLength": "20",
+                    "tedsID": "13",
+                    "radioType": "4",
+                    "maxBPS": "1",
+                    "maxCDev": "10",
+                    "maxRDev": "1",
+                    "encryption": "0",
+                    "authent": "0",
+                    "minKeyL": "0",
+                    "maxKeyL": "1",
+                    "maxSDU": "10",
+                    "minALat": "1",
+                    "maxTLat": "1",
+                    "maxXAct": "1",
+                    "batery": "0",
+                    "radio": "0",
+                    "maxRetry": "2"
+                }
             }
         ]
     }
