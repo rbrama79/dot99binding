@@ -18,7 +18,7 @@
                     "oHoldOff": "1",
                     "sHoldOff": "1",
                     "testTime": "1",
-                    "MaxChan": "1",
+                    "maxChan": "1",
                     "cGroup": {
                         "grpType": "1",
                         "memList": "1"
@@ -73,19 +73,19 @@
                 "PHYTEDS": {
                     "TEDSLength": "20",
                     "tedsID": "13",
-                    "radioType": "4",
+                    "radioVer": "4",
                     "maxBPS": "1",
                     "maxCDev": "10",
                     "maxRDev": "1",
-                    "encryption": "0",
+                    "encrypt": "0",
                     "authent": "0",
                     "minKeyL": "0",
                     "maxKeyL": "1",
                     "maxSDU": "10",
                     "minALat": "1",
-                    "maxTLat": "1",
-                    "maxXAct": "1",
-                    "batery": "0",
+                    "minTLat": "1",
+                    "maxXact": "1",
+                    "battery": "0",
                     "radio": "0",
                     "maxRetry": "2"
                 }

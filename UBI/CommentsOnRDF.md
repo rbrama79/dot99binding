@@ -320,3 +320,13 @@ of allowing engineers to select what fields and units to use in their applicatio
 Helbert: This parte is not defined on the IEEE 1451.0-2007, so we can elaborate what is better for our user case. Using JSON-LD my ideia was "discover the system" NCAPs and TIMs after that knowing the tranduscer channels and the data types using Linked Data start to receive only the values, for exemple a temperature value: 298,15 for example, because of the TEDS the system/developer/M2M can infer that 298,15 K, actually there are only Kelvin on the data type. 
 
 I will work on a improvement on the RDF file for a new version. Thanks for all comments and apologies for the delayed response.
+
+I added a V2 based on the comments, using the ieee1451 data type and xs for the xml data type converted for the specifity.
+
+Now it is correct the graphs.
+
+I am using the svg for images because it is vectorial.
+
+[Read TEDS](./V2/ReadMetaTESDxs.svg)
+
+For the sample values I will use one of the samples above.

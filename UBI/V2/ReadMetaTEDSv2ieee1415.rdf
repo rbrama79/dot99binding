@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xs="http://www.w3.org/2001/XMLSchema#" xmlns:ieee1451="http://iml.ubi.pt/2022/ieee1451/#">
+  <rdf:Description rdf:about="http://iml.ubi.pt/2022/ieee1451/">
+    <ieee1451:NCAP>
+      <rdf:Description>
+        <ieee1451:BlockManufactureID rdf:datatype="ieee1451:String">0</ieee1451:BlockManufactureID>
+        <ieee1451:BlockModelNumber rdf:datatype="ieee1451:String">UBIBlock_1</ieee1451:BlockModelNumber>
+        <ieee1451:BlockSoftwareVersion rdf:datatype="ieee1451:String">sv001</ieee1451:BlockSoftwareVersion>
+        <ieee1451:NCAPManufactureID rdf:datatype="ieee1451:String">INTERPOP 2023</ieee1451:NCAPManufactureID>
+        <ieee1451:NCAPModelNumber rdf:datatype="ieee1451:String">0.3</ieee1451:NCAPModelNumber>
+        <ieee1451:NCAPSerialNumber rdf:datatype="ieee1451:String">6</ieee1451:NCAPSerialNumber>
+        <ieee1451:NCAPOSVersion rdf:datatype="ieee1451:String">0.5</ieee1451:NCAPOSVersion>
+        <ieee1451:TIM>
+          <rdf:Description>
+            <ieee1451:timId rdf:datatype="ieee1451:UInt16">1</ieee1451:timId>
+            <ieee1451:MetaTEDS>
+              <rdf:Description>
+                <ieee1451:TEDSLength rdf:datatype="ieee1451:UInt32">59</ieee1451:TEDSLength>
+                <ieee1451:tedsID rdf:datatype="ieee1451:UInt8">1</ieee1451:tedsID>
+                <ieee1451:UUID rdf:datatype="ieee1451:String">91B3501A6905F982DA79</ieee1451:UUID>
+                <ieee1451:oHoldOff rdf:datatype="ieee1451:Float32">1</ieee1451:oHoldOff>
+                <ieee1451:sHoldOff rdf:datatype="ieee1451:Float32">1</ieee1451:sHoldOff>
+                <ieee1451:testTime rdf:datatype="ieee1451:Float32">1</ieee1451:testTime>
+                <ieee1451:maxChan rdf:datatype="ieee1451:UInt16">1</ieee1451:maxChan>
+                <ieee1451:cGroup>
+                  <rdf:Description>
+                    <ieee1451:grpType rdf:datatype="ieee1451:UInt8">1</ieee1451:grpType>
+                    <ieee1451:memList rdf:datatype="ieee1451:UInt16Array">1</ieee1451:memList>
+                  </rdf:Description>
+                </ieee1451:cGroup>
+              </rdf:Description>
+            </ieee1451:MetaTEDS>
+            <ieee1451:TransducerChannelTEDS>
+              <rdf:Description>
+                <ieee1451:TEDSLength rdf:datatype="ieee1451:UInt32">99</ieee1451:TEDSLength>
+                <ieee1451:tedsID rdf:datatype="ieee1451:UInt8">3</ieee1451:tedsID>
+                <ieee1451:calKey rdf:datatype="ieee1451:UInt8">0</ieee1451:calKey>
+                <ieee1451:chanType rdf:datatype="ieee1451:UInt8">0</ieee1451:chanType>
+                <ieee1451:phyUnits>
+                  <rdf:Description>
+                    <ieee1451:unitType rdf:datatype="ieee1451:UInt8">1</ieee1451:unitType>
+                    <ieee1451:radians rdf:datatype="ieee1451:UInt8">128</ieee1451:radians>
+                    <ieee1451:sterRad rdf:datatype="ieee1451:UInt8">128</ieee1451:sterRad>
+                    <ieee1451:meters rdf:datatype="ieee1451:UInt8">128</ieee1451:meters>
+                    <ieee1451:kilogram rdf:datatype="ieee1451:UInt8">128</ieee1451:kilogram>
+                    <ieee1451:seconds rdf:datatype="ieee1451:UInt8">128</ieee1451:seconds>
+                    <ieee1451:amperes rdf:datatype="ieee1451:UInt8">128</ieee1451:amperes>
+                    <ieee1451:kelvins rdf:datatype="ieee1451:UInt8">129</ieee1451:kelvins>
+                    <ieee1451:moles rdf:datatype="ieee1451:UInt8">128</ieee1451:moles>
+                    <ieee1451:candelas rdf:datatype="ieee1451:UInt8">128</ieee1451:candelas>
+                    <ieee1451:unitsExt rdf:datatype="ieee1451:UInt8">3</ieee1451:unitsExt>
+                  </rdf:Description>
+                </ieee1451:phyUnits>
+                <ieee1451:lowLimit rdf:datatype="ieee1451:Float32">233.15</ieee1451:lowLimit>
+                <ieee1451:hiLimit rdf:datatype="ieee1451:Float32">398.15</ieee1451:hiLimit>
+                <ieee1451:oError rdf:datatype="ieee1451:Float32">1</ieee1451:oError>
+                <ieee1451:selfTest rdf:datatype="ieee1451:Float32">0</ieee1451:selfTest>
+                <ieee1451:mRange rdf:datatype="ieee1451:Float32">0</ieee1451:mRange>
+                <ieee1451:sample>
+                  <rdf:Description>
+                    <ieee1451:datModel rdf:datatype="ieee1451:UInt8">0</ieee1451:datModel>
+                    <ieee1451:modLenth rdf:datatype="ieee1451:UInt8">0</ieee1451:modLenth>
+                    <ieee1451:sigBits rdf:datatype="ieee1451:UInt16">0</ieee1451:sigBits>
+                  </rdf:Description>
+                </ieee1451:sample>
+                <ieee1451:updateT rdf:datatype="ieee1451:Float32">2</ieee1451:updateT>
+                <ieee1451:rSetupT rdf:datatype="ieee1451:Float32">1</ieee1451:rSetupT>
+                <ieee1451:sPeriod rdf:datatype="ieee1451:Float32">10</ieee1451:sPeriod>
+                <ieee1451:warmUpT rdf:datatype="ieee1451:Float32">1</ieee1451:warmUpT>
+                <ieee1451:rDelayT rdf:datatype="ieee1451:Float32">1</ieee1451:rDelayT>
+                <ieee1451:testTime rdf:datatype="ieee1451:Float32">2</ieee1451:testTime>
+                <ieee1451:sampling>
+                  <rdf:Description>
+                    <ieee1451:sampMode rdf:datatype="ieee1451:UInt8">0</ieee1451:sampMode>
+                  </rdf:Description>
+                </ieee1451:sampling>
+              </rdf:Description>
+            </ieee1451:TransducerChannelTEDS>
+            <ieee1451:UsersTransducerNameTEDS>
+              <rdf:Description>
+                <ieee1451:TEDSLength rdf:datatype="ieee1451:UInt32">29</ieee1451:TEDSLength>
+                <ieee1451:tedsID rdf:datatype="ieee1451:UInt8">12</ieee1451:tedsID>
+                <ieee1451:format rdf:datatype="ieee1451:UInt8">0</ieee1451:format>
+                <ieee1451:tCName rdf:datatype="ieee1451:String">Temperature</ieee1451:tCName>
+              </rdf:Description>
+            </ieee1451:UsersTransducerNameTEDS>
+            <ieee1451:PHYTEDS>
+              <rdf:Description>
+                <ieee1451:TEDSLength rdf:datatype="ieee1451:UInt32">20</ieee1451:TEDSLength>
+                <ieee1451:tedsID rdf:datatype="ieee1451:UInt8">13</ieee1451:tedsID>
+                <ieee1451:radioVer rdf:datatype="ieee1451:UInt16">4</ieee1451:radioVer>
+                <ieee1451:maxBPS rdf:datatype="ieee1451:UInt32">1</ieee1451:maxBPS>
+                <ieee1451:maxCDev rdf:datatype="ieee1451:UInt16">10</ieee1451:maxCDev>
+                <ieee1451:maxRDev rdf:datatype="ieee1451:UInt16">1</ieee1451:maxRDev>
+                <ieee1451:encryption rdf:datatype="ieee1451:UInt16">0</ieee1451:encryption>
+                <ieee1451:authent rdf:datatype="ieee1451:Boolean">0</ieee1451:authent>
+                <ieee1451:minKeyL rdf:datatype="ieee1451:UInt16">0</ieee1451:minKeyL>
+                <ieee1451:maxKeyL rdf:datatype="ieee1451:UInt16">1</ieee1451:maxKeyL>
+                <ieee1451:maxSDU rdf:datatype="ieee1451:UInt16">10</ieee1451:maxSDU>
+                <ieee1451:minALat rdf:datatype="ieee1451:UInt32">1</ieee1451:minALat>
+                <ieee1451:minTLat rdf:datatype="ieee1451:UInt32">1</ieee1451:minTLat>
+                <ieee1451:maxXAct rdf:datatype="ieee1451:UInt8">1</ieee1451:maxXAct>
+                <ieee1451:battery rdf:datatype="ieee1451:UInt8">0</ieee1451:battery>
+                <ieee1451:radio rdf:datatype="ieee1451:UInt8">0</ieee1451:radio>
+                <ieee1451:maxRetry rdf:datatype="ieee1451:UInt16">2</ieee1451:maxRetry>
+              </rdf:Description>
+            </ieee1451:PHYTEDS>
+          </rdf:Description>
+        </ieee1451:TIM>
+      </rdf:Description>
+    </ieee1451:NCAP>
+  </rdf:Description>
+</rdf:RDF>
