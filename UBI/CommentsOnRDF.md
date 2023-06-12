@@ -119,13 +119,6 @@ Rules for how graph was generated:
 
 Helbert: The graph is not representing the correct relationship, I mistake and forget the PHY TEDS,  I need to produce a RDF v2. also, based on the comments. 
 
-## IEEE 1451 Knowleage Model
-
-I am updating the knowleage model that was used to build the ontology 
-
-[Ontology Knowleage Model](IEEE1451KnowleageModel.svg)
-
-I can refactored the Knowleage Model and the ontology and update if it is necessary. We need the approval of the IEEE P1451.0 to see the differences between the version from IEEE 1451.0-2007 to the new one and update the ontology.
 
 ## Use of blank nodes for TIMs
 
