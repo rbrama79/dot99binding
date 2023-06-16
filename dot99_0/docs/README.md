@@ -12,12 +12,14 @@ During the demo the following webmethods, implementing the P.99.0 cited primitiv
 	JSON Replies: sgi-discovery-resp.json
 	
 ## Primitive name: SGI-SendData_Ind
+
 	Web method: http://127.0.0.1/p1451_99_0/SGI-SendData_Ind
 	Used by: devices to publish data. We will only have publish requests from the sensor
 	JSON Posted Objects: sgi-senddata-ind.json
 	JSON Replies: sgi-senddata-resp.json
 	
 ## Primitive name: HARL-Set_Req (only if 1451.99 side is able to trigger this on message reception)
+
 	Web method: http://127.0.0.1/p1451_99_0/HARL-Set_Req
 	Used by: 1451.99 side to handle the actuator. We will receive a XMPP message producing the HARL-Set_Req 
 	         with that JSON object reporting what we should do at SGI level. Of course since we do not know what the SGI
@@ -31,4 +33,4 @@ During the demo the following webmethods, implementing the P.99.0 cited primitiv
 For more information please refer to:
 
 * [Paper About the IECON 2022 Demonstration](docs/INTEROP2022-A_New_Architectural_Approach_for_P1451_99_Binding_to_P1451_0.pdf)
-* [Presentation held during IECON 2022 Demonstration](docs/20221018-P1451_99_0-A Fitst Proposal.pdf)
+* [Presentation held during IECON 2022 Demonstration](docs/20221018-P1451_99_0-A_First_Proposal.pdf)
