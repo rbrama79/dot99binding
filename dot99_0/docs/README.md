@@ -1,6 +1,6 @@
 # Structure of the 2022 IECON Demo
 
-During the demo the following webmethods, implementing the P.99.0 cited primitives were shown
+During the demo the following web methods, implementing some of the P.99.0 cited primitives, were shown.
 
 ## Primitive name: SGI-Discovery-Ind
 
