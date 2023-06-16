@@ -1,0 +1,11 @@
+{
+	"JID":"device654321@example.org",
+	"ChannelsNo":1,
+	"Set":[
+		{
+			"ChannelId":0,
+			"Value":"1"
+		}
+	]
+}
+	

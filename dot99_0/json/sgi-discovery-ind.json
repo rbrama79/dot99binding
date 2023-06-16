@@ -1,0 +1,20 @@
+{
+	"SGIadd":"123456",
+	"DevType":"Sensor",
+	"ChannelsNo":1,
+	"Channels":[
+		{
+			"SensType":"Double",
+		}
+	]
+}	
+{
+	"SGIadd":"654321",
+	"DevType":"Actuator",
+	"ChannelsNo":1,
+	"Channels":[
+		{
+			"ActType":"Boolean",
+		}
+	]
+}	

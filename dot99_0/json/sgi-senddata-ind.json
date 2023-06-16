@@ -1,0 +1,10 @@
+{
+	"SGIadd":"123456",
+	"ChannelsNo":1,
+	"Readings":[
+		{
+			"ChannelId":0,
+			"Value":"21.1"
+		}
+	]
+}
