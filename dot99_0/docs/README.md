@@ -32,5 +32,5 @@ During the demo the following webmethods, implementing the P.99.0 cited primitiv
 	
 For more information please refer to:
 
-* [Paper About the IECON 2022 Demonstration](docs/INTEROP2022-A_New_Architectural_Approach_for_P1451_99_Binding_to_P1451_0.pdf)
-* [Presentation held during IECON 2022 Demonstration](docs/20221018-P1451_99_0-A_First_Proposal.pdf)
+* [Paper About the IECON 2022 Demonstration](./INTEROP2022-A_New_Architectural_Approach_for_P1451_99_Binding_to_P1451_0.pdf)
+* [Presentation held during IECON 2022 Demonstration](./20221018-P1451_99_0-A_First_Proposal.pdf)
