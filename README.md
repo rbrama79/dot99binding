@@ -14,6 +14,16 @@ Repository contains the following examples files:
 * [Semantic sensor data in JSON-LD format](UBI/ReadTEDSExample.jsonld)
 * [Last IECON 2022 1451.99.0 Demo Material](dot99_0/README.md)
 
+Example Devices
+------------------
+
+Following resources list devices used in the demo.
+
+* Simulated Modbus devices
+	* [Modbus Device List](ModbusDevices.md)
+	* [Simulating Modbus devices using ComSim](https://lab.tagroot.io/Community/Post/Simulating_Modbus_devices_using_ComSim)
+	* [Modbus simulation output/expected behaviour](https://lab.tagroot.io/Reports/ModBusDeviceControl.md)
+
 References
 -------------
 
