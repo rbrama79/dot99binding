@@ -37,7 +37,7 @@
 			<value></value>
 		</field>
 		<field var="Host">
-			<value>localhost</value>
+			<value>lab.tagroot.io</value>
 		</field>
 		<field var="MeterLocation">
 			<value></value>
