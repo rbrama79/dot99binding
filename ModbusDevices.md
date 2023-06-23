@@ -158,14 +158,14 @@ The following QR codes are available for ease of access to the above devices.
 
 ### Thermostats
 
-![Thermostat 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__1%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%201)
-![Thermostat 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__2%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%202)
-![Thermostat 3](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__3%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%203)
-![Thermostat 4](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__4%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%204)
-![Thermostat 5](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__5%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%205)
-![Thermostat 6](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__6%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%206)
-![Thermostat 7](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__7%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%207)
-![Thermostat 8](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__8%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%208)
-![Thermostat 9](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__9%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%209)
-![Thermostat 10](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat_10%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3DThermostat%2010)
+![Thermostat 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__1%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%201)
+![Thermostat 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__2%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%202)
+![Thermostat 3](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__3%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%203)
+![Thermostat 4](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__4%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%204)
+![Thermostat 5](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__5%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%205)
+![Thermostat 6](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__6%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%206)
+![Thermostat 7](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__7%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%207)
+![Thermostat 8](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__8%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%208)
+![Thermostat 9](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__9%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%209)
+![Thermostat 10](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat_10%3BSID%3DMeteringTopology%3BCLASS%3DThermostat%3BMODEL%3DComSim%3BNAME%3DThermostat%2010)
 
