@@ -117,6 +117,8 @@ QR Codes
 
 The following QR codes are available for ease of access to the above devices.
 
+### Outdoor temperature sensors
+
 ![Outdoor temperature sensor 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__1%3BSID%3DMeteringTopology)
 ![Outdoor temperature sensor 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__2%3BSID%3DMeteringTopology)
 ![Outdoor temperature sensor 3](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__3%3BSID%3DMeteringTopology)
@@ -127,6 +129,8 @@ The following QR codes are available for ease of access to the above devices.
 ![Outdoor temperature sensor 8](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__8%3BSID%3DMeteringTopology)
 ![Outdoor temperature sensor 9](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__9%3BSID%3DMeteringTopology)
 ![Outdoor temperature sensor 10](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor_10%3BSID%3DMeteringTopology)
+
+### Indoor temperature sensors
 
 ![Indoor temperature sensor 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__1%3BSID%3DMeteringTopology)
 ![Indoor temperature sensor 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__2%3BSID%3DMeteringTopology)
@@ -139,6 +143,8 @@ The following QR codes are available for ease of access to the above devices.
 ![Indoor temperature sensor 9](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__9%3BSID%3DMeteringTopology)
 ![Indoor temperature sensor 10](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor_10%3BSID%3DMeteringTopology)
 
+### Heaters
+
 ![Heater 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__1%3BSID%3DMeteringTopology)
 ![Heater 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__2%3BSID%3DMeteringTopology)
 ![Heater 3](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__3%3BSID%3DMeteringTopology)
@@ -149,6 +155,8 @@ The following QR codes are available for ease of access to the above devices.
 ![Heater 8](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__8%3BSID%3DMeteringTopology)
 ![Heater 9](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__9%3BSID%3DMeteringTopology)
 ![Heater 10](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater_10%3BSID%3DMeteringTopology)
+
+### Thermostats
 
 ![Thermostat 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__1%3BSID%3DMeteringTopology)
 ![Thermostat 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__2%3BSID%3DMeteringTopology)
