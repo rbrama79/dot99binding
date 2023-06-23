@@ -72,8 +72,8 @@ this representation is symbolic, as you only address registers directly.
 | `lab.tagroot.io` |  502 |     36 |        2 | Heater temperature 7.          | `lab.tagroot.io@tagroot.io` | `Heater Temperature 7`      | `MeteringTopology` |
 | `lab.tagroot.io` |  502 |     37 |          | Heater 8.                      | `lab.tagroot.io@tagroot.io` | `Heater__8`                 | `MeteringTopology` |
 | `lab.tagroot.io` |  502 |     37 |        0 | Heater enabled 8.              | `lab.tagroot.io@tagroot.io` | `Heater Enabled 8`          | `MeteringTopology` |
-| `lab.tagroot.io` |  502 |     37 |        2 | Heater temperature 8.          | `lab.tagroot.io@tagroot.io` | `Heater Temperature 8`      | `MeteringTopology` |
 | `lab.tagroot.io` |  502 |     38 |          | Heater 9.                      | `lab.tagroot.io@tagroot.io` | `Heater__9`                 | `MeteringTopology` |
+| `lab.tagroot.io` |  502 |     37 |        2 | Heater temperature 8.          | `lab.tagroot.io@tagroot.io` | `Heater Temperature 8`      | `MeteringTopology` |
 | `lab.tagroot.io` |  502 |     38 |        0 | Heater enabled 9.              | `lab.tagroot.io@tagroot.io` | `Heater Enabled 9`          | `MeteringTopology` |
 | `lab.tagroot.io` |  502 |     38 |        2 | Heater temperature 9.          | `lab.tagroot.io@tagroot.io` | `Heater Temperature 9`      | `MeteringTopology` |
 | `lab.tagroot.io` |  502 |     39 |          | Heater 10.                     | `lab.tagroot.io@tagroot.io` | `Heater_10`                 | `MeteringTopology` |
@@ -111,3 +111,53 @@ this representation is symbolic, as you only address registers directly.
 | `lab.tagroot.io` |  502 |     49 |        2 | Thermostat temperature 10.     | `lab.tagroot.io@tagroot.io` | `Thermostat Temperature 10` | `MeteringTopology` |
 
 An XML file that can be used for importing devices is also available: [SimModbus.xml](SimModbus.xml).
+
+QR Codes
+----------
+
+The following QR codes are available for ease of access to the above devices.
+
+![Outdoor temperature sensor 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__1%3BSID%3DMeteringTopology)
+![Outdoor temperature sensor 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__2%3BSID%3DMeteringTopology)
+![Outdoor temperature sensor 3](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__3%3BSID%3DMeteringTopology)
+![Outdoor temperature sensor 4](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__4%3BSID%3DMeteringTopology)
+![Outdoor temperature sensor 5](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__5%3BSID%3DMeteringTopology)
+![Outdoor temperature sensor 6](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__6%3BSID%3DMeteringTopology)
+![Outdoor temperature sensor 7](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__7%3BSID%3DMeteringTopology)
+![Outdoor temperature sensor 8](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__8%3BSID%3DMeteringTopology)
+![Outdoor temperature sensor 9](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor__9%3BSID%3DMeteringTopology)
+![Outdoor temperature sensor 10](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DOutdoor_10%3BSID%3DMeteringTopology)
+
+![Indoor temperature sensor 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__1%3BSID%3DMeteringTopology)
+![Indoor temperature sensor 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__2%3BSID%3DMeteringTopology)
+![Indoor temperature sensor 3](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__3%3BSID%3DMeteringTopology)
+![Indoor temperature sensor 4](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__4%3BSID%3DMeteringTopology)
+![Indoor temperature sensor 5](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__5%3BSID%3DMeteringTopology)
+![Indoor temperature sensor 6](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__6%3BSID%3DMeteringTopology)
+![Indoor temperature sensor 7](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__7%3BSID%3DMeteringTopology)
+![Indoor temperature sensor 8](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__8%3BSID%3DMeteringTopology)
+![Indoor temperature sensor 9](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor__9%3BSID%3DMeteringTopology)
+![Indoor temperature sensor 10](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DIndoor_10%3BSID%3DMeteringTopology)
+
+![Heater 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__1%3BSID%3DMeteringTopology)
+![Heater 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__2%3BSID%3DMeteringTopology)
+![Heater 3](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__3%3BSID%3DMeteringTopology)
+![Heater 4](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__4%3BSID%3DMeteringTopology)
+![Heater 5](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__5%3BSID%3DMeteringTopology)
+![Heater 6](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__6%3BSID%3DMeteringTopology)
+![Heater 7](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__7%3BSID%3DMeteringTopology)
+![Heater 8](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__8%3BSID%3DMeteringTopology)
+![Heater 9](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater__9%3BSID%3DMeteringTopology)
+![Heater 10](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DHeater_10%3BSID%3DMeteringTopology)
+
+![Thermostat 1](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__1%3BSID%3DMeteringTopology)
+![Thermostat 2](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__2%3BSID%3DMeteringTopology)
+![Thermostat 3](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__3%3BSID%3DMeteringTopology)
+![Thermostat 4](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__4%3BSID%3DMeteringTopology)
+![Thermostat 5](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__5%3BSID%3DMeteringTopology)
+![Thermostat 6](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__6%3BSID%3DMeteringTopology)
+![Thermostat 7](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__7%3BSID%3DMeteringTopology)
+![Thermostat 8](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__8%3BSID%3DMeteringTopology)
+![Thermostat 9](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat__9%3BSID%3DMeteringTopology)
+![Thermostat 10](https://lab.tagroot.io/QR/iotdisco%3AJID%3Dlab.tagroot.io%40tagroot.io%3BNID%3DThermostat_10%3BSID%3DMeteringTopology)
+
