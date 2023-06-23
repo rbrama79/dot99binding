@@ -3,6 +3,7 @@ Modbus devices
 
 The following simulated devices are available via Modbus, for the interop demo:
 
+|                             Modbus over TCP/IP                           |||||
 | Host             | Port | Device | Register | Description                    |
 |:-----------------|-----:|-------:|---------:|:-------------------------------|
 | `lab.tagroot.io` |  502 |     10 |        0 | Outdoor temperature 1.         |
