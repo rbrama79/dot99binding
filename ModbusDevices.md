@@ -109,3 +109,5 @@ this representation is symbolic, as you only address registers directly.
 | `lab.tagroot.io` |  502 |     49 |          | Thermostat 10.                 | `lab.tagroot.io@tagroot.io` | `Thermostat_10`             | `MeteringTopology` |
 | `lab.tagroot.io` |  502 |     49 |        0 | Thermostat enabled 10.         | `lab.tagroot.io@tagroot.io` | `Thermostat Enabled 10`     | `MeteringTopology` |
 | `lab.tagroot.io` |  502 |     49 |        2 | Thermostat temperature 10.     | `lab.tagroot.io@tagroot.io` | `Thermostat Temperature 10` | `MeteringTopology` |
+
+An XML file that can be used for importing devices is also available: [SimModbus.xml](SimModbus.xml).
