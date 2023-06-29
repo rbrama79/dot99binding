@@ -1,0 +1,9 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ieee1451: <http://iml.ubi.pt/2022/ieee1451/>
+
+SELECT ?temperature
+WHERE {
+  ?ncap ieee1451:NCAPManufactureID "UBI INTERPOP 2023" .
+  ?ncap ieee1451:TIM ?tim .
+  ?tim ieee1451:kelvins ?temperature .
+}

@@ -1,0 +1,21 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:ieee1451="http://iml.ubi.pt/2022/ieee1451/">
+    <rdf:Description rdf:about="http://iml.ubi.pt/2022/ieee1451/">
+    <ieee1451:NCAP>
+        <rdf:Description>
+            <ieee1451:NCAPManufactureID rdf:datatype="xs:string">UBI INTERPOP 2023</ieee1451:NCAPManufactureID>
+            <ieee1451:NCAPModelNumber rdf:datatype="xs:string">0.3</ieee1451:NCAPModelNumber>
+            <ieee1451:TIM>
+                <rdf:Description>
+                    <ieee1451:timId rdf:datatype="xsd:unsignedByte">1</ieee1451:timId>
+                    <ieee1451:channelId rdf:datatype="xsd:unsignedByte">1</ieee1451:channelId>
+                    <ieee1451:chanType rdf:datatype="xsd:unsignedByte">0</ieee1451:chanType>
+                    <ieee1451:tCName rdf:datatype="xsd:string">Temperature</ieee1451:tCName>
+                    <ieee1451:kelvins rdf:datatype="xsd:string">303.15</ieee1451:kelvins>
+                </rdf:Description>
+            </ieee1451:TIM>
+        </rdf:Description>
+    </ieee1451:NCAP>
+    </rdf:Description>
+</rdf:RDF>
