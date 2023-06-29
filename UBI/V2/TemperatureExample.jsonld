@@ -1,0 +1,16 @@
+{
+    "@context": "http://iml.ubi.pt/2022/ieee1451/ieee1451.jsonld",
+  	"NCAP": {
+        "NCAPManufactureID": "INTERPOP 2023",
+        "NCAPModelNumber": "0.3",
+        "TIM":[
+          { 
+            "timId": "1",
+            "channelId":"1",
+            "chanType": "0",
+            "tCName": "Temperature",
+            "kelvins": "303,15"
+          }
+      ]
+    }
+}
