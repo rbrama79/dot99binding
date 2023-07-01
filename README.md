@@ -3,6 +3,21 @@ IEEE P1451.99 bindings (demo)
 
 This repository will hold information about the IECON2023 demonstration of IEEE P1451.99 bindings.
 
+SPARQL Endpoint
+-----------------
+
+SPARQL is a standardized query language (find references below) that can be used to:
+
+1. Query semantical information
+2. Transform semantical information
+3. Perform federated queries
+
+For the demo, the following live resources are available:
+
+* [SPARQL Endpoint](https://lab.tagroot.io/Sparql.md). Use this endpoint to execute SPARQL queries.
+* [Request login credentials to access SPARQL Endpoint](https://lab.tagroot.io/Feedback.md). Provide your full name, e-mail and purpose, to receive access to SPARQL endpoint above.
+
+
 Example Files
 ---------------
 
@@ -41,6 +56,7 @@ References
 * [W3C Semantic Web specifications](https://www.w3.org/TR/?tag=data)
 * [W3C specification for the TURTLE format for semantic information](https://www.w3.org/TeamSubmission/turtle/#sec-collections)
 * [W3C specification for SPARQL 1.2 query language](https://www.w3.org/TR/2023/WD-sparql12-query-20230516/)
+* [W3C specification for SPARQL 1.2 protocol](https://www.w3.org/TR/sparql12-protocol/)
 * [IEEE P1451.99 Implementation reference broker](https://cybercity.online/)
 * [Lab server for demo](https://lab.tagroot.io/)
 * [Server documentation](https://lab.tagroot.io/Documentation/Index.md)
