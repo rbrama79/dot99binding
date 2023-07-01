@@ -17,7 +17,7 @@ Repository contains the following examples files:
 	* [ReadMetaTEDSv2ieee1415.rdf](UBI/V2/ReadMetaTEDSv2ieee1415.rdf)
 	* [ReadMetaTEDSv2xs.rdf](UBI/V2/ReadMetaTEDSv2xs.rdf)
 	* [ReadMetaTESDxs.svg](UBI/V2/ReadMetaTESDxs.svg)
-	* [SelectTemperatureSPARQL.txt](UBI/V2/SelectTemperatureSPARQL.txt)
+	* [SelectTemperatureSPARQL.rq](UBI/V2/SelectTemperatureSPARQL.rq)
 	* [TemperatureExample.jsonld](UBI/V2/TemperatureExample.jsonld)
 	* [TemperatureExample.rdf](UBI/V2/TemperatureExample.rdf)
 	* [exampleData.svg](UBI/V2/exampleData.svg)
