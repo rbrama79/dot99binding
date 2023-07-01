@@ -8,10 +8,20 @@ Example Files
 
 Repository contains the following examples files:
 
-* [Semantic sensor data in RDF/XML format](UBI/ReadTEDSExample.rdf)
-* [Semantic sensor data in graph form](UBI/ReadTEDSExample.png)
-* [Comments on semantic sensor data](UBI/CommentsOnRDF.md)
-* [Semantic sensor data in JSON-LD format](UBI/ReadTEDSExample.jsonld)
+* UBI V1
+	* [Semantic sensor data in RDF/XML format](UBI/V1/ReadTEDSExample.rdf)
+	* [Semantic sensor data in graph form](UBI/V1/ReadTEDSExample.png)
+	* [Comments on semantic sensor data](UBI/V1/CommentsOnRDF.md)
+	* [Semantic sensor data in JSON-LD format](UBI/V1/ReadTEDSExample.jsonld)
+* UBI V2
+	* [ReadMetaTEDSv2ieee1415.rdf](UBI/V2/ReadMetaTEDSv2ieee1415.rdf)
+	* [ReadMetaTEDSv2xs.rdf](UBI/V2/ReadMetaTEDSv2xs.rdf)
+	* [ReadMetaTESDxs.svg](UBI/V2/ReadMetaTESDxs.svg)
+	* [SelectTemperatureSPARQL.txt](UBI/V2/SelectTemperatureSPARQL.txt)
+	* [TemperatureExample.jsonld](UBI/V2/TemperatureExample.jsonld)
+	* [TemperatureExample.rdf](UBI/V2/TemperatureExample.rdf)
+	* [exampleData.svg](UBI/V2/exampleData.svg)
+	* [ReadMetaTEDSieee1451.svg](UBI/V2/ReadMetaTEDSieee1451.svg)
 * [Last IECON 2022 1451.99.0 Demo Material](dot99_0/README.md)
 
 Example Devices
