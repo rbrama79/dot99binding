@@ -57,6 +57,7 @@ References
 * [W3C specification for the TURTLE format for semantic information](https://www.w3.org/TeamSubmission/turtle/#sec-collections)
 * [W3C specification for SPARQL 1.2 query language](https://www.w3.org/TR/2023/WD-sparql12-query-20230516/)
 * [W3C specification for SPARQL 1.2 protocol](https://www.w3.org/TR/sparql12-protocol/)
+* [W3C specification for Graph Store protocol](https://www.w3.org/TR/sparql12-graph-store-protocol/)
 * [IEEE P1451.99 Implementation reference broker](https://cybercity.online/)
 * [Lab server for demo](https://lab.tagroot.io/)
 * [Server documentation](https://lab.tagroot.io/Documentation/Index.md)
