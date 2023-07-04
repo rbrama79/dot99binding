@@ -17,6 +17,20 @@ For the demo, the following live resources are available:
 * [SPARQL Endpoint](https://lab.tagroot.io/Sparql.md). Use this endpoint to execute SPARQL queries.
 * [Request login credentials to access SPARQL Endpoint](https://lab.tagroot.io/Feedback.md). Provide your full name, e-mail and purpose, to receive access to SPARQL endpoint above.
 
+Graph Store (Graph Database)
+--------------------------------
+
+W3C has [standardized a protocol](https://www.w3.org/TR/sparql12-graph-store-protocol/) for 
+creating, updating, retrieving and getting semantic graphs in *graph stores*. These graphs
+can later be processed using SPARQL, and other semantic web-related technologies.
+
+For the demo, the following live resources are available:
+
+* [Graph Store](https://lab.tagroot.io/rdf-graph-store). Use this endpoint to create (`PUT`),
+update (`POST`), retrieve (`GET`) or delete (`DELETE`) graphs, as described in the W3C
+standard [SPARQL 1.2 Graph Store Protocol](https://www.w3.org/TR/sparql12-graph-store-protocol/).
+* [Request login credentials to access Graph Store](https://lab.tagroot.io/Feedback.md). 
+Provide your full name, e-mail and purpose, to receive access to the Graph Store above.
 
 Example Files
 ---------------
