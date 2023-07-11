@@ -17,7 +17,7 @@
         <ieee1451:NCAPMessage>
           <rdf:Description>
             <ieee1451:currentValue rdf:datatype="xsd:double">304.45</ieee1451:currentValue>
-            <ieee1451:previusValue rdf:datatype="xsd:double">0.0</ieee1451:previusValue>
+            <ieee1451:previousValue rdf:datatype="xsd:double">0.0</ieee1451:previousValue>
             <ieee1451:timestamp rdf:datatype="xsd:dateTime">2023-07-11T16:06:05.689221+01:00</ieee1451:timestamp>
             <ieee1451:unit>K</ieee1451:unit>
           </rdf:Description>
