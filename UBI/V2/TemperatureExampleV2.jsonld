@@ -11,10 +11,10 @@
             "tCName": "Temperature"
           }],
         "NCAPMessage": {
-            "currentValue": "303,15",
-            "lastValue": "0.0",
-            "timestamp": "2023-07-10 18:33:05.098735",
-            "unit": "kelvins" 	
+            "currentValue": "304.45",
+            "previousValue": "0.0",
+            "timestamp": "2023-07-11T16:04:59.429619+01:00",
+            "unit": "K" 	
         }
     }
 }

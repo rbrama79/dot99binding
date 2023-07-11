@@ -4,22 +4,22 @@
   <rdf:Description rdf:about="http://iml.ubi.pt/2022/ieee1451/">
     <ieee1451:NCAP>
       <rdf:Description>
-        <ieee1451:NCAPManufactureID rdf:datatype="xsd:string">INTERPOP 2023</ieee1451:NCAPManufactureID>
-        <ieee1451:NCAPModelNumber rdf:datatype="xsd:string">0.3</ieee1451:NCAPModelNumber>
+        <ieee1451:NCAPManufactureID>INTERPOP 2023</ieee1451:NCAPManufactureID>
+        <ieee1451:NCAPModelNumber>0.3</ieee1451:NCAPModelNumber>
         <ieee1451:TIM>
           <rdf:Description>
-            <ieee1451:timId rdf:datatype="xsd:decimal">1</ieee1451:timId>
-            <ieee1451:channelId rdf:datatype="xsd:decimal">1</ieee1451:channelId>
-            <ieee1451:chanType rdf:datatype="xsd:decimal">0</ieee1451:chanType>
-            <ieee1451:tCName rdf:datatype="xsd:string">Temperature</ieee1451:tCName>
+            <ieee1451:timId rdf:datatype="xsd:unsignedByte">1</ieee1451:timId>
+            <ieee1451:channelId rdf:datatype="xsd:unsignedByte">1</ieee1451:channelId>
+            <ieee1451:chanType rdf:datatype="xsd:unsignedByte">0</ieee1451:chanType>
+            <ieee1451:tCName>Temperature</ieee1451:tCName>
           </rdf:Description>
         </ieee1451:TIM>
         <ieee1451:NCAPMessage>
           <rdf:Description>
-            <ieee1451:currentValue rdf:datatype="xsd:double">303,15</ieee1451:currentValue>
-            <ieee1451:lastValue rdf:datatype="xsd:double">0,0</ieee1451:lastValue>
-            <ieee1451:timestamp rdf:datatype="xsd:datetime">2023-07-10 18:33:05.098735</ieee1451:timestamp>
-            <ieee1451:unit rdf:datatype="xsd:string">kelvins</ieee1451:unit>
+            <ieee1451:currentValue rdf:datatype="xsd:double">304.45</ieee1451:currentValue>
+            <ieee1451:previusValue rdf:datatype="xsd:double">0.0</ieee1451:previusValue>
+            <ieee1451:timestamp rdf:datatype="xsd:dateTime">2023-07-11T16:06:05.689221+01:00</ieee1451:timestamp>
+            <ieee1451:unit>K</ieee1451:unit>
           </rdf:Description>
         </ieee1451:NCAPMessage>
       </rdf:Description>
