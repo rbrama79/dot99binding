@@ -69,8 +69,9 @@ References
 
 * [Current IEEE P1451.99 Proposal](https://gitlab.com/IEEE-SA/XMPPI/IoT)
 * [W3C Semantic Web specifications](https://www.w3.org/TR/?tag=data)
-* [W3C specification for the TURTLE format for semantic information](https://www.w3.org/TeamSubmission/turtle/#sec-collections)
-* [W3C specification for SPARQL 1.2 query language](https://www.w3.org/TR/2023/WD-sparql12-query-20230516/)
+* [W3C specification for the TURTLE format for semantic information](https://www.w3.org/TR/rdf12-turtle/)
+* [W3C specification for SPARQL 1.2 query language](https://www.w3.org/TR/sparql12-query/)
+* [W3C specification for SPARQL 1.2 federated query](https://www.w3.org/TR/sparql12-federated-query/)
 * [W3C specification for SPARQL 1.2 protocol](https://www.w3.org/TR/sparql12-protocol/)
 * [W3C specification for Graph Store protocol](https://www.w3.org/TR/sparql12-graph-store-protocol/)
 * [IEEE P1451.99 Implementation reference broker](https://cybercity.online/)
